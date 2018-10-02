@@ -53,6 +53,7 @@ export default class ReadMore extends React.Component {
           ref={text => {
             this._text = text;
           }}
+          style={this.props.textContainerStyle?this.props.textContainerStyle:{}}
         >
           {this.props.children}
         </Text>
